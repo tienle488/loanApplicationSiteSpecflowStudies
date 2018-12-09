@@ -55,3 +55,8 @@ Scenario: Sign Up For Free with InterviewMocha.com successfully (Improved)
 		And I enter a job title other of Other
 	When I submit Sign Up for Free
 	Then I should see the sign-up complete confirmation for Sarah
+
+Scenario: (just testing out commit to github repo)
+	Given I have a condition
+	When I do something with it 
+	Then I should expect
