@@ -36,8 +36,9 @@ namespace DemoWebApp.Tests
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "loanApplicationModeling", "\tIn order to supposedly buy something nice now\r\n\tAs a cash poor customer\r\n\tI want" +
-                    " to supposedly borrow money so I don\'t have to wait", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "loanApplicationModeling", "\t(Why is this solution broken??) In order to supposedly buy something nice now\r\n\t" +
+                    "As a cash poor customer\r\n\tI want to supposedly borrow money so I don\'t have to w" +
+                    "ait", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -243,3 +244,4 @@ this.ScenarioSetup(scenarioInfo);
 }
 #pragma warning restore
 #endregion
+
